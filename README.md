@@ -1,1 +1,0 @@
-# kayipduyularatlasi.github.io

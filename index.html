@@ -1,135 +1,114 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kayıp Duyular Atlası — Berkay Alay</title>
-  <meta name="description" content="Kayıp Duyular Atlası — Berkay Alay. Yokluğun haritası, duyuların ötesinde kalan izler." />
-<link rel="icon" href="./cover.jpg" type="image/jpeg">
-  <link rel="apple-touch-icon" href="./cover.jpg">
+
+  <meta name="description" content="Yokluğun haritası, duyuların ötesinde kalan izler.">
   <meta property="og:title" content="Kayıp Duyular Atlası — Berkay Alay">
   <meta property="og:description" content="Yokluğun haritası, duyuların ötesinde kalan izler.">
   <meta property="og:image" content="https://berkayalay53.github.io/kayipduyularatlasi.github.io/cover.jpg">
-  <meta property="og:url" content="https://berkayalay53.github.io/kayipduyularatlasi.github.io/">
-  <meta property="og:type" content="book">
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Kayıp Duyular Atlası — Berkay Alay">
-  <meta name="twitter:description" content="Yokluğun haritası, duyuların ötesinde kalan izler.">
-  <meta name="twitter:image" content="https://berkayalay53.github.io/kayipduyularatlasi.github.io/cover.jpg">
-  
+  <link rel="icon" href="./cover.jpg" type="image/jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-  <div class="grain" aria-hidden="true"></div>
 
-  <header class="intro-screen" id="introScreen">
-    <div class="intro-bg" style="background-image: url('./cover.jpg');"></div>
+  <div id="intro-screen">
+    <div class="intro-bg"></div>
     
     <div class="intro-content">
-      <p class="kicker">Berkay Alay</p>
+      <p class="kicker">BERKAY ALAY</p>
       <h1 class="intro-title">Kayıp Duyular Atlası</h1>
-      <p class="intro-sub">Bu kitap bir hikâye anlatmaz. Kaybolmuş duyuların yerini işaretler.</p>
-      
-      <button class="btn btn--enter" id="startBtn" type="button">
-        Devam Et
-      </button>
+      <p class="intro-sub">"Bu kitap bir hikâye anlatmaz.<br>Kaybolmuş duyuların yerini işaretler."</p>
+      <button id="start-btn">Haritayı Aç</button>
     </div>
-  </header>
+  </div>
 
-  <main class="main" id="mainContent">
+  <div class="fixed-bg"></div>
+  <div class="grain"></div>
+
+  <main class="page" id="mainPage">
     
-    <section class="section section--quote" aria-label="Açılış alıntısı">
-      <div class="wrap">
-        <blockquote class="quote quote--hero">
-          <p>“Birini hiç tanımadan özlemek… bu nasıl bir duygudur? Ben onun kim olduğunu hâlâ bilmiyorum. Ama onun yokluğuna tutunuyorum. Ve fark ettim ki, bazı insanlar birini özlemiyor — bir boşluğu seviyor.”</p>
-          <footer>— <span>Kayıp Duyular Atlası</span></footer>
-        </blockquote>
-      </div>
+    <header class="hero-spacer"></header>
+
+    <section class="quote q-center">
+      <p>“Birini hiç tanımadan özlemek… bu nasıl bir duygudur? Ben onun kim olduğunu hâlâ bilmiyorum. Ama onun yokluğuna tutunuyorum. Ve fark ettim ki, bazı insanlar birini özlemiyor — bir boşluğu seviyor.”</p>
+      <span>Boşluk</span>
     </section>
 
-    <section class="section" aria-label="Kısa not">
-      <div class="wrap">
-        <div class="note">
-          <p>
-            Bu sayfa bir karşılaşma değil.
-            Bir eksilmenin haritası.
-          </p>
-        </div>
-      </div>
+    <div class="divider">~</div>
+
+    <section class="quote q-left">
+      <p>“Bazı insanlar hayatına konuşarak girmez. Bazen sadece sessiz bir görüntüyle yerleşirler içimize. Bir gün metroda, karşı koltukta oturan bir adamın duruşu… Sanki dünya, onu benim için kurguluyordu.”</p>
+      <span>Seyir</span>
     </section>
 
-    <section class="section section--grid" aria-label="Seçilmiş alıntılar">
-      <div class="wrap grid">
-        <blockquote class="quote">
-          <p>“Bazı insanlar hayatına konuşarak girmez. Bazen sadece sessiz bir görüntüyle yerleşirler içimize. Bir gün metroda, karşı koltukta oturan bir adamın duruşu… Sanki dünya, Murphy’yi benim için kurguluyordu.”</p>
-          <footer>— <span>Kayıp Duyular Atlası</span></footer>
-        </blockquote>
-
-        <blockquote class="quote">
-          <p>“Belki de seni hiç tanımamalıydım, sadece bir silüet olarak kalmalıydın. Çünkü tanıdıkça, o gizemli boşluklar dolmaya başladı ve her dolan boşlukta ben biraz daha eksildim. İnsan, hayal ettiğini severmiş; gerçeği ise sadece tolere edermiş.”</p>
-          <footer>— <span>Kayıp Duyular Atlası</span></footer>
-        </blockquote>
-      </div>
+    <section class="quote q-right">
+      <p>“Belki de seni hiç tanımamalıydım, sadece bir silüet olarak kalmalıydın. Çünkü tanıdıkça, o gizemli boşluklar dolmaya başladı ve her dolan boşlukta ben biraz daha eksildim. İnsan, hayal ettiğini severmiş; gerçeği ise sadece tolere edermiş.”</p>
+      <span>Gerçek</span>
     </section>
 
-    <section class="section section--reader" id="oku" aria-label="Okuyucu">
-      <div class="wrap">
-        <div class="readerTop">
-          <h2>Okuma</h2>
-          <p class="readerSub">
-            PDF yeni sekmede açılır. Duyuların sustuğu bir zamanda okunması önerilir.
-          </p>
+    <div class="divider">~</div>
 
-          <div class="readerActions">
-            <a class="btn btn--primary" href="./kayip-duyular-atlasi.pdf" target="_blank" rel="noopener">
-              PDF’yi Yeni Sekmede Aç
-            </a>
-            <a class="btn btn--ghost" href="./kayip-duyular-atlasi.pdf" download>
-              PDF’yi İndir
-            </a>
-          </div>
-        </div>
-
-        <blockquote class="quote quote--closing">
-          <p>“Bazı şeyler yaşanmaz, sadece hatırlanır. Ve insan, ismini bilmediği bir yasla yaşıyorsa… ölmemiş biriyle birlikte gömülmüştür.”</p>
-          <footer>— <span>Kayıp Duyular Atlası</span></footer>
-        </blockquote>
-      </div>
+    <section class="quote q-center">
+      <p>“Bazı şeyler yaşanmaz, sadece hatırlanır. Ve insan, ismini bilmediği bir yasla yaşıyorsa… ölmemiş biriyle birlikte gömülmüştür.”</p>
+      <span>Yas</span>
     </section>
 
-    <section class="section section--footer" aria-label="Alt bilgi">
-      <div class="wrap footer">
-        <div class="sig">
-          <p class="sig__name">Berkay Alay</p>
-          <p class="sig__meta">Yazar Sayfası • Kayıp Duyular Atlası</p>
-        </div>
-
-        <div class="links">
-          <a href="https://books2read.com/berkayalay" target="_blank" rel="noopener">Yazar sayfası</a>
-        </div>
+    <div class="reader-section">
+      <h2 class="reader-title">Keşfet</h2>
+      <p style="color: #bbb; margin-bottom: 20px;">Duyuların sustuğu bir zamanda okunması önerilir.</p>
+      
+      <div class="reader-actions">
+        <a href="./kayip-duyular-atlasi.pdf" target="_blank" class="btn-ghost">PDF'i Aç</a>
+        <a href="./kayip-duyular-atlasi.pdf" download class="btn-ghost">İndir</a>
       </div>
-    </section>
+    </div>
+
+    <div class="end-mark">
+      <a href="https://berkayalay53.github.io/" class="home-link">← Kütüphaneye Dön</a>
+    </div>
+
   </main>
 
   <script>
-    const startBtn = document.getElementById('startBtn');
-    const introScreen = document.getElementById('introScreen');
-    const mainContent = document.getElementById('mainContent');
+    // === STANDART GİRİŞ ve SCROLL MANTIĞI ===
+    const introScreen = document.getElementById('intro-screen');
+    const startBtn = document.getElementById('start-btn');
+    const mainPage = document.getElementById('mainPage');
 
+    // 1. Scroll Kilidi
+    document.body.style.overflow = 'hidden';
+
+    // 2. Buton Tıklaması
     startBtn.addEventListener('click', () => {
-      introScreen.style.animation = 'fadeOut 0.8s ease-in-out forwards';
+      introScreen.classList.add('fade-out');
+      mainPage.classList.add('visible');
+      document.body.style.overflow = 'auto'; // Kilidi aç
+      
       setTimeout(() => {
         introScreen.style.display = 'none';
-        mainContent.classList.add('visible');
-        window.scrollTo(0, 0);
-      }, 800); 
+      }, 1500);
     });
+
+    // 3. Scroll Animasyonu
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.quote').forEach(quote => observer.observe(quote));
   </script>
+
 </body>
 </html>
